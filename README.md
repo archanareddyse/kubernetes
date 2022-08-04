@@ -35,3 +35,15 @@ Check the services running using the command:
 Use kubectl to forward the port:	
 	kubectl port-forward service/webapp-service 6080:8080
 now ckeck in localhost in 6080
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+kubernetes in gcp
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+https://github.com/sunildevops77/kube_project_durga.git
+once cluster is created connect to Click on RUN IN CLOUD SHELL
+Clone the project from github respository
+Check for list of files by ls
+Now run the commands by kubectl apply -f
+Now check for kubectl get all
+Now check for external ip [34.134.96.83]and check in browser(nginx)
+Now check for external ip [34.173.142.154]and check in browser
+
